@@ -80,3 +80,9 @@ v.update([9])
 #converts iterables to list and can be used to make a list
 b = list(set([9,0]))
 b = list()
+
+#|
+#combines sets
+b = {1, 2, 3}
+n = {2, 3, 4}
+m = b | n
