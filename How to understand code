@@ -1,0 +1,13 @@
+Imagine you are the computer. 
+Start at the top of the script or the main() function, 
+however it's arranged. Go step by step remembering the values of variables, 
+or writing them down if they are numerous. Follow loops etc., 
+tracking the variables as they change. 
+(NB if it's only a specific function or section you have difficulty understanding, 
+start there.)When you reach a function call don't step into it at first, 
+treat it as a black box and try to understand what parameters it takes 
+and what it returns. Where a function is hard to understand in this way 
+or poorly documented, repeat the process with that function.
+This careful step-by-step reading of the program text should bring you to an 
+understanding of how it operates. Then you can try running it and 
+adding print statements to see if it behaves as you expect.
