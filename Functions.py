@@ -91,3 +91,9 @@ m = b | n
 # The format() method formats the specified value(s) and 
 # insert them inside the string's placeholder.
 k = "p + {}".format(7)
+
+#f
+#In Python, the letter f placed before 
+# a string literal denotes an f-string (short for formatted string literal)
+l = "apple"
+m = f"j + {l}"
