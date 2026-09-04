@@ -86,3 +86,8 @@ b = list()
 b = {1, 2, 3}
 n = {2, 3, 4}
 m = b | n
+
+#format
+# The format() method formats the specified value(s) and 
+# insert them inside the string's placeholder.
+k = "p + {}".format(7)
