@@ -97,3 +97,18 @@ k = "p + {}".format(7)
 # a string literal denotes an f-string (short for formatted string literal)
 l = "apple"
 m = f"j + {l}"
+
+#join
+#The join() method in Python is a built-in string method used to merge an iterable of 
+#strings (like a list, tuple, or set) into a single, cohesive string
+letters = ["P", "y", "t", "h", "o", "n"] #strings work too
+word = "".join(letters)
+
+#\n
+#\n is A newline character — 
+# an invisible control code that tells output 
+# to break the line and continue on the next one.
+m = "hello\nworld"
+
+
+
