@@ -110,5 +110,34 @@ word = "".join(letters)
 # to break the line and continue on the next one.
 m = "hello\nworld"
 
+#reverse()
+#If you want to reverse the list in-place 
+#to save memory, use the built-in .reverse() method. 
+l = [8,9,9,7]
+l.reverse()
 
+#[::-1]
+#same as reverse method
+numbers = [1, 2, 3, 4, 5]
+reversed_list = numbers[::-1]
 
+#chr()
+#converts integer to characters. ASCII charactersx
+b = chr(3)
+
+#sum
+#sum takes iterable like list and add them up
+p = [9,9,7,6]
+k = sum(p)
+
+#**
+#takes the power to
+n = 6**2
+
+#[]
+#can turn things to list
+point1 = [6,7]
+point2 = [9,8]
+[(point1[i]-point2[i])**2 for i in range(len(point1))]
+
+ 
