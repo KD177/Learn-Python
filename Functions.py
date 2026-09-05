@@ -140,4 +140,14 @@ point1 = [6,7]
 point2 = [9,8]
 [(point1[i]-point2[i])**2 for i in range(len(point1))]
 
+#endswith
+#The Python endswith() method checks 
+#whether a string finishes with a specified suffix
+m = "Hi!"
+k = m.endswith("!")
+
+#[:-1]
+#returns all elements except the last instance
+m = "Hi!"
+k = m[:-1]
  
