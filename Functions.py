@@ -156,3 +156,10 @@ word = "Hello"
 reversed_word = ""
 for i in word:
     reversed_word = i + reversed_word
+
+#How to create a function
+def reverse_word(word):
+    reversed = ""
+    for letter in word:
+         reversed = letter + reversed
+    return reversed
