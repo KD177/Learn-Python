@@ -151,3 +151,8 @@ k = m.endswith("!")
 m = "Hi!"
 k = m[:-1]
  
+#for reversing a string
+word = "Hello"
+reversed_word = ""
+for i in word:
+    reversed_word = i + reversed_word
