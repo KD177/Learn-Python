@@ -163,3 +163,9 @@ def reverse_word(word):
     for letter in word:
          reversed = letter + reversed
     return reversed
+
+#floor()
+#rounding down to the nearest whole number
+l= 0
+import math
+floor_value = math.floor(3.7)
