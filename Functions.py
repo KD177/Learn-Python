@@ -169,3 +169,10 @@ def reverse_word(word):
 l= 0
 import math
 floor_value = math.floor(3.7)
+
+#reduce list 
+nums = [1, 2, 3, 4, 5]
+l = nums[1:]
+m = nums[:1]
+n = nums[1:3]
+l = nums[::-2]
