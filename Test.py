@@ -27,3 +27,13 @@ j = str(lck)
 print(type(j))
 j = list(map(int, lck[::-1]))
 print(j)
+print(1%2)
+k = 1
+blist = list(range(1))
+bbinlst = []
+for i in blist[::-1]:
+        if k // 2 == i:
+            bbinlst.append(k % 2)
+            k = i
+
+print(bbinlst)
