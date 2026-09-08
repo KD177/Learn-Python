@@ -8,7 +8,22 @@ print(freq_map)
 
 print(freq_map.get('pal', 4))  # Output: 3
 
-nums = [1, 2, 3, 4, 5]
-l = nums[::-2]
-# k = nums.append(nums[1:3])
-print(l)
+print(list(range(6)))  # Output: [0, 1, 2, 3, 4, 5]
+
+a = 20
+m = a
+alist = list(range(a))
+print(alist[::-1])
+lck = []
+for i in alist[::-1]:
+    if m // 2 == i:
+        lck.append(m % 2)
+        m = i
+
+print("".join(map(str, lck[::-1])))
+print(lck[::-1])
+print("".join(str(lck[::-1])))
+j = str(lck)
+print(type(j))
+j = list(map(int, lck[::-1]))
+print(j)

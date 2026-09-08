@@ -176,3 +176,26 @@ l = nums[1:]
 m = nums[:1]
 n = nums[1:3]
 l = nums[::-2]
+
+#//
+#floor division
+l = 7//2
+print(7%2)
+
+#type()
+#The type() function returns the type of the object passed as an argument.
+type(9)
+
+#map()
+#The map() function applies a given function to each item of an iterable ]
+#
+# like a list or tuple) and returns a map object (which is an iterator).
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = list(map(lambda x: x**2, numbers))
+
+
+#lambda
+#A lambda function is a small anonymous function that can take any number of arguments,
+#but can only have one expression.
+square = lambda x: x**2
+result = square(5)
