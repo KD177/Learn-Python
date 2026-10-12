@@ -199,3 +199,15 @@ squared_numbers = list(map(lambda x: x**2, numbers))
 #but can only have one expression.
 square = lambda x: x**2
 result = square(5)
+
+
+#range
+#The range() function generates a sequence of numbers within a specified range.
+for i in range(5):
+    print(i)
+#range function also allows specifying a start and stop value
+for i in range(2, 7):
+    print(i)
+#range function also allows specifying a start, stop, and step value
+for i in range(2, 10, 2):
+    print(i)
