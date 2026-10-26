@@ -33,3 +33,24 @@ Create Table
 CREATE TABLE is the statement that defines a new table in a relational database.
 
 CREATE VIEW is the statement that saves a query under a name so you can use it like a table.
+
+In SQL, a SET clause assigns new values to columns, most often inside an UPDATE statement to change existing rows.
+
+```sql
+UPDATE employees
+SET salary = 75000, title = 'Senior Analyst'
+WHERE employee_id = 101;
+```
+
+This changes the salary and title for employee 101 only. Without the WHERE clause, every row would be updated.
+
+INNER JOIN is a type of join that returns rows when there is a match in both tables being joined.
+So Inner join returns only the rows that have matching values in both tables. 
+SELECT e.name AS employee,
+       m.name AS manager
+FROM employees e
+INNER JOIN employees m
+    ON e.manager_id = m.employee_id;
+
+table e (column manager_id)  will search table m (column employee_id) for a match. If there is a match, the row is returned in the result set.
+if no match is found, the row is not returned.
