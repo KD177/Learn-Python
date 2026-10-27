@@ -52,5 +52,28 @@ FROM employees e
 INNER JOIN employees m
     ON e.manager_id = m.employee_id;
 
-table e (column manager_id)  will search table m (column employee_id) for a match. If there is a match, the row is returned in the result set.
+table e (column manager_id)  will search table m (column employee_id) 
+for a match. If there is a match, the row is returned in the result set.
 if no match is found, the row is not returned.
+
+in the result set, e.manager_id will look different 
+and m.employee_id = e.employee_id in the result set
+
+ISNULL is a condition that checks for NULL values in a column.
+ISNULL(column_name)
+ISNULL can also be used to replace NULL values with a specified value in a query result.
+ISNULL(column_name, replacement_value)  
+
+UPDATE is a SQL statement that modifies existing records in a table. 
+It is often used with a SET clause to specify the new values for one or more columns.
+Update table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+SUBSTRING is a function that extracts a substring from a string, 
+starting at a specified position and optionally for a specified length.
+SUBSTRING(string, start_position, length)
+
+CHARINDEX is a function that returns the position of the last occurrence 
+of a specified substring within a string.
+CHARINDEX(substring, string)
